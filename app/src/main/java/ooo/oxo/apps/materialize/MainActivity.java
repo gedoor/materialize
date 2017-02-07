@@ -73,8 +73,7 @@ public class MainActivity extends RxAppCompatActivity
                 .filter(app -> !app.component.getPackageName().startsWith("com.google."))
                 .filter(app -> !app.component.getPackageName().startsWith("org.cyanogenmod."))
                 .filter(app -> !app.component.getPackageName().startsWith("com.cyanogenmod."))
-                .filter(app -> !app.component.getPackageName().startsWith("me.xingrz."))
-                .filter(app -> !app.component.getPackageName().startsWith("ooo.oxo."));
+                .filter(app -> !app.component.getPackageName().startsWith("me.xingrz."));
     }
 
     @Override
